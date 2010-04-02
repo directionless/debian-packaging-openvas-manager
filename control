@@ -1,0 +1,22 @@
+Source: openvas-manager
+Section: net
+Priority: extra
+Maintainer: seph <seph@directionless.org>
+Homepage: http://www.openvas.org/
+Standards-Version: 3.8.3
+Build-Depends: cdbs (>= 0.4.23-1.1), debhelper (>= 5), cmake, libopenvas3-dev, libgnutls-dev, uuid-dev, libsqlite3-dev
+
+Package: openvas-manager
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: Remote network security auditor, manager
+ The OpenVAS Security Scanner is a security auditing tool. It makes
+ possible to test security modules in an attempt to find vulnerable
+ spots that should be fixed.
+ .
+ It is made up of two parts: a server, and a client. The server/daemon,
+ openvasd, is in charge of the attacks, whereas the client,
+ OpenVAS-Client, provides the user a nice X11/GTK+ interface.
+ .
+ This package contains openvas-manager
+

@@ -1,0 +1,6 @@
+*.debhelper.log
+*.substvars
+openvas-*
+stamp-makefile-build
+files
+
