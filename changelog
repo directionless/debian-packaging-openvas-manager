@@ -1,4 +1,4 @@
-iopenvas-manager (1.0.0-beta5ubuntu1) jaunty; urgency=low
+openvas-manager (1.0.0-beta5ubuntu1) jaunty; urgency=low
 
   * fixed LOCALSTATEDIR and SYSCONFDIR
 
