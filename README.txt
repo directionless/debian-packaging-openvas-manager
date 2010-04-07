@@ -6,4 +6,5 @@ The control file can be regenerated with:
 
 but it probably won't need to be.
 
-https://svn.wald.intevation.org/svn/openvas/trunk/openvas-manager/packaging/debian/rules looks like the official upstream packaging.
+https://svn.wald.intevation.org/svn/openvas/trunk/openvas-manager/packaging/debian/rules 
+is for the v2 stuff. 

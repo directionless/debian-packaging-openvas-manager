@@ -1,5 +1,16 @@
---- CMakeLists.txt	2010-03-04 09:00:41.000000000 -0500
-+++ CMakeLists.txt	2010-04-02 14:04:33.000000000 -0400
+Index: CMakeLists.txt
+===================================================================
+--- CMakeLists.txt	(revision 7230)
++++ CMakeLists.txt	(working copy)
+@@ -39,7 +39,7 @@
+ FIND_PROGRAM(SVN_EXECUTABLE svn DOC "subversion command line client")
+ 
+ MACRO(Subversion_GET_REVISION dir variable)
+-  EXECUTE_PROCESS(COMMAND ${SVN_EXECUTABLE} info ${dir}
++  EXECUTE_PROCESS(COMMAND ${SVN_EXECUTABLE} info ${CMAKE_SOURCE_DIR}/${dir}
+     OUTPUT_VARIABLE ${variable}
+     OUTPUT_STRIP_TRAILING_WHITESPACE)
+   STRING(REGEX REPLACE "^(.*\n)?Revision: ([^\n]+).*"
 @@ -63,9 +63,9 @@
  set (CPACK_GENERATOR "TGZ")
  set (CPACK_INSTALL_CMAKE_PROJECTS ".;openvas-manager;ALL;/")
@@ -13,4 +24,3 @@
  set (CPACK_SOURCE_GENERATOR "TGZ")
  set (CPACK_SOURCE_TOPLEVEL_TAG "")
  set (CPACK_SYSTEM_NAME "")
-
