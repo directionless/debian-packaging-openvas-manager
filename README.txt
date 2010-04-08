@@ -21,7 +21,7 @@ You Milage May Vary
 mkdir /var/tmp/openvas-manager
 cd /var/tmp/openvas-manager
 
-svn checkout http://svn.wald.intevation.org/svn/openvas/trunk/openvas-manager/
+svn checkout http://svn.wald.intevation.org/svn/openvas/trunk/openvas-manager/ -r 7230
 cd openvas-manager
 git clone \
     http://github.com/directionless/debian-packaging-openvas-manager.git debian
