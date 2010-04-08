@@ -1,0 +1,5 @@
+# Is the daemon enabled?
+ENABLE=true
+
+# daemon startup options.
+DAEMONOPTS="-s 9390 -p 9391 --listen=127.0.0.1"
