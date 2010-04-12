@@ -9,7 +9,7 @@ Build-Depends: cdbs (>= 0.4.23-1.1), debhelper (>= 5), cmake, libopenvas3-dev, l
 Package: openvas-manager
 Architecture: any
 Depends: ${shlibs:Depends}
-Suggests: xsltproc, texlive-latex-base, texlive-latex-extra, texlive-latex-recommended, fakeroot, alien, rpm, nsis
+Recommends: xsltproc, texlive-latex-base, texlive-latex-extra, texlive-latex-recommended, fakeroot, alien, rpm, nsis
 Description: Remote network security auditor, manager
  The OpenVAS Security Scanner is a security auditing tool. It makes
  possible to test security modules in an attempt to find vulnerable
