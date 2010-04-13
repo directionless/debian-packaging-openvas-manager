@@ -1,3 +1,9 @@
+openvas-manager (1.0.0-beta6.SVN.r7289) UNRELEASED; urgency=low
+
+  * update to svn
+
+ -- seph <seph@ubuntu-harder-builder>  Tue, 13 Apr 2010 14:02:30 -0400
+
 openvas-manager (1.0.0-beta6.SVN.r7230.3) UNRELEASED; urgency=low
 
   * added suggests for credential related packages
